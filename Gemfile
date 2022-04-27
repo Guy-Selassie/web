@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.1.7'
+gem 'rails', '5.2.7.1'
 
 gem 'sass'
 
@@ -19,7 +19,7 @@ gem 'dotenv-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Used for 'respond_to' feature
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 2.4', '>= 2.4.1'
 
 gem 'tzinfo-data'
 
