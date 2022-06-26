@@ -19,7 +19,7 @@ gem 'dotenv-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Used for 'respond_to' feature
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 2.4', '>= 2.4.1'
 
 gem 'tzinfo-data'
 
