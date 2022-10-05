@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.1.7'
+gem 'rails', '5.2.8.1'
 
 gem 'sass'
 
@@ -16,10 +16,10 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'dotenv-rails'
 
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 
 # Used for 'respond_to' feature
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 2.4', '>= 2.4.1'
 
 gem 'tzinfo-data'
 
@@ -33,7 +33,7 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-  gem 'puma'
+  gem 'puma', '>= 4.3.12'
 
   gem 'haml'
 
@@ -43,7 +43,7 @@ group :development, :test do
   gem 'capistrano-passenger', '>= 0.2.0'
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
-  gem 'capistrano-sidekiq'
+  gem 'capistrano-sidekiq', '>= 2.0.0'
   gem 'capistrano-git-with-submodules', '~> 2.0'
 end
 
