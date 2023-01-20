@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.1.7'
+gem 'rails', '6.1.7.1'
 
 gem 'sass'
 
@@ -13,13 +13,13 @@ gem 'uglifier'
 
 gem 'rack-cors', :require => 'rack/cors'
 
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.7.6'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Used for 'respond_to' feature
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 
 gem 'tzinfo-data'
 
