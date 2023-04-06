@@ -43,7 +43,7 @@ group :development, :test do
   gem 'capistrano-passenger', '>= 0.2.0'
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
-  gem 'capistrano-sidekiq'
+  gem 'capistrano-sidekiq', '>= 2.0.0'
   gem 'capistrano-git-with-submodules', '~> 2.0'
 end
 
