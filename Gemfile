@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.1.7'
+gem 'rails', '7.1.0'
 
 gem 'sass'
 
@@ -13,13 +13,13 @@ gem 'uglifier'
 
 gem 'rack-cors', :require => 'rack/cors'
 
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.7.6'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Used for 'respond_to' feature
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 
 gem 'tzinfo-data'
 
@@ -28,7 +28,7 @@ group :development, :test do
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '3.5.1'
+  gem 'web-console', '3.6.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
@@ -48,6 +48,6 @@ group :development, :test do
 end
 
 
-gem "lograge", "~> 0.11.2"
+gem "lograge", "~> 0.12.0"
 
 gem "newrelic_rpm", "~> 7.0"
