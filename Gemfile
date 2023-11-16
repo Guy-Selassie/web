@@ -5,7 +5,7 @@ gem 'rails', '5.1.7'
 
 gem 'sass'
 
-gem "non-stupid-digest-assets"
+gem "non-stupid-digest-assets", ">= 1.0.10"
 
 gem 'secure_headers'
 
