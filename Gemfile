@@ -11,7 +11,7 @@ gem 'secure_headers'
 
 gem 'uglifier'
 
-gem 'rack-cors', :require => 'rack/cors'
+gem 'rack-cors', '>= 3.0.0', :require => 'rack/cors'
 
 gem 'dotenv-rails'
 
